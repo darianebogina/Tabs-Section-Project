@@ -10,17 +10,37 @@
 <body>
     <div class="main__wrapper">
         <div class="picture__wrapper">
-            <img src="" alt="">
+            <img src="./cat.jpg" alt="cat">
         </div>
         <div class="tabs__wrapper">
             <div class="buttons__wrapper">
-                <button></button>
-                <button></button>
-                <button></button>
+                <button onclick="createContent()">Step 1</button>
+                <button onclick="createContent()">Step 2</button>
+                <button onclick="createContent()">Step 3</button>
             </div>
             <div class="text__wrapper">
-                <h3>Step 1</h3>
-                <p>some text</p>
+                <div class="text__content" id="content1">
+                    <h3>Step 1</h3>
+                    <p> Build Trust Gradually – Start by leaving food and water in a quiet place where the cat feels safe. 
+                    Avoid making sudden movements or forcing interaction. 
+                    Let the cat observe you from a distance and approach on its own terms.
+                    </p>
+                </div>
+                <div class="text__content" id="content2">
+                    <h3>Step 2</h3>
+                    <p> Create a Safe Space – Provide a cozy shelter, such as a box with blankets, 
+                        or leave a door open if you want to bring the cat inside. 
+                        Ensure the environment is calm and free of potential threats.
+                    </p>
+                </div>
+                <div class="text__content" id="content3">
+                    <h3>Step 3</h3>
+                    <p> Vet Check & Socialization – Once the cat is comfortable around you, 
+                        take it to a vet for a health check and vaccinations. 
+                        Slowly introduce gentle petting and social interaction, 
+                        using treats and soft talking to reinforce positive behavior.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
