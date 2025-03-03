@@ -86,3 +86,7 @@ img {
     padding: 2rem 1.5rem;
 }
 
+.text__content {
+    display: flex;
+    flex-direction: column;
+}
