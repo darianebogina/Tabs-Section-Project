@@ -1,6 +1,7 @@
 let content = document.getElementsByClassName("text__content");
 let button = document.getElementsByClassName("btn__tab");
 let pics = document.getElementsByClassName("picture__wrapper")[0];
+let pageContent = document.querySelector(".main__wrapper");
 
 content[1].style.display = "none";
 content[2].style.display = "none";
@@ -30,3 +31,11 @@ function openTab(num) {
     show(num);
     hide(num);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+        document.querySelector(".intro").style.display = "none";
+        pageContent.classList.remove("hidden");
+        pageContent.style.opacity = "1";
+    }, 2000);
+});
